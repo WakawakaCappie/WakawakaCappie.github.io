@@ -1,0 +1,1 @@
+let climber = document.querySelector('.climber')
