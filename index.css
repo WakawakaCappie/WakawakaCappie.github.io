@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(7, 204, 161);
+    background: url(vgif-ru-24978.gif) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%
+}
+
+.mountin{
+    /* width: 100vmax;
+    height: 60vmin; */
+    position: absolute;
+    top: 200px;
+    /* left: 10px; */
+    /* overflow: hidden; */
+}
+
+img{
+    width: 1500px;
+    /* z-index: 1; */
+    /* visibility:hidden; */
+
+}
+
+.savePoint{ 
+    width: 100px;
+    font-size: 3em;
+    color: white
+}
+.savePoint0 {
+    position:absolute;
+    top:535px;
+    /* border-bottom: 3px solid red; */
+    /* border-top: 3px solid red; */
+    left:50px;
+    transform: rotate(15deg);
+    
+
+    
+}
+
+.climb {
+    width: 50px;
+    z-index: 2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.climb2 {
+    width: 50px;
+    z-index: 2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+.climber {
+    width: 50px;
+    z-index: 2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+.savePoint1 {
+    position:absolute;
+    top:438px;
+    /* border-bottom: 3px solid red; */
+    /* border-top: 3px solid red; */
+    left:160px;
+    transform: rotate(185deg);
+    
+}
+
+.savePoint2 {
+    position:absolute;
+    top:425px;
+    /* border-bottom: 3px solid red; */
+    left:260px;
+    /* transform: rotate(190deg) */
+    
+}
+
+.savePoint3 {
+    position:absolute;
+    top:283px;
+    /* border-bottom: 3px solid red; */
+    left:328px;
+}
+
+
+
+.savePoint4 {
+    position:absolute;
+    top:260px;
+    /* border-bottom: 3px solid red; */
+    left:450px;
+    transform: rotate(185deg)
+}
+
+.savePoint5 {
+    position:absolute;
+    top:260px;
+    /* border-bottom: 3px solid red; */
+    left:575px;
+    /* transform: rotate(185deg) */
+}
+
+.savePoint6 {
+    position:absolute;
+    top:180px;
+    /* border-bottom: 3px solid red; */
+    left:664px;
+    transform: rotate(65deg)
+}
+
+.savePoint7 {
+    position:absolute;
+    top:130px;
+    /* border-bottom: 3px solid red; */
+    left:1085px;
+    transform: rotate(65deg);
+    /* animation-name: fligth; */
+    animation-duration: 6s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.flagg1 {
+    position:absolute;
+    top:165px;
+    /* border-bottom: 3px solid red; */
+    left:594px;
+    /* transform: rotate(65deg) */
+
+}
+.flagg2 {
+    position:absolute;
+    top:143px;
+    /* border-bottom: 3px solid red; */
+    left:1058px;
+    /* transform: rotate(65deg) */
+
+}
+
+@keyframes fligth {
+    0% {
+        top:180px;
+        left:664px;
+    }
+    100%{
+        top:130px;
+        left:1085px;
+    }
+}
+
+@keyframes dance {
+    0% {
+        transform: scale(1, 1);
+    }
+    100%{
+        transform: scale(1, -1);
+    }
+}
+
+.video {
+    visibility:hidden;
+    /* z-index:5; */
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* visibility:hidden; */
+}
+
+
+.sign-wrap-1 {
+    position:absolute;
+    top:80px;
+    left:70vw;
+    text-align: center;
+    padding: 6px 20px;
+    visibility:hidden;
+
+}
+.sign-wrap-1 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    animation: neon-1 .1s ease-in-out infinite alternate;
+}
+@keyframes neon-1 {
+    from {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(191, 226, 255, 0.52), 0 0 21px rgba(191, 226, 255, 0.92), 0 0 34px rgba(191, 226, 255, 0.78), 0 0 54px rgba(191, 226, 255, 0.92);
+    }
+    to {
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(191, 226, 255, 0.58), 0 0 22px rgba(191, 226, 255, 0.84), 0 0 38px rgba(191, 226, 255, 0.88), 0 0 60px #FFF;
+    }
+}
